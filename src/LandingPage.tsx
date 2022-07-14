@@ -1,6 +1,7 @@
+import './styles/LandingPage.css'
 
 export const LandingPage = () => {
   return (
-    <div>LandingPage</div>
+    <h1>Hola Mundo</h1>
   )
 }
