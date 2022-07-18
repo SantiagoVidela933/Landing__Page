@@ -1,33 +1,76 @@
 /* Header Container */
 .Header__container{
     display: flex;
-
+    justify-content: space-between;
     width: 100vw;
     height: 80px;
-    top: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Box Icon and Box Nav */
+/* Box Logo */
 .Header__container-icon{
     display: flex;
-    justify-content: flex-start;
+    justify-content: start;
     align-items: center;
     width: 30vw;
     height: 100%;
     background-color: #fff;
 }
+.container__icon-img{
+    width: 20vw;
+    height: 7vh;
+}
+
+/* Icon Menu Mobile */
+.container__box-iconMobile{
+    display: none;
+}
+@media screen and (max-width: 992px){
+    .container__box-iconMobile{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        width: 70vw;
+        color: #C483F8;
+        font-size: 2rem;
+        margin-right: 5vw;
+        z-index: 1000;
+    }
+}
+
+/* Box Nav */
 .Header__container-nav{
     display: flex;
     justify-content: center;
     align-items: center;
-
     
-    width: 70vw;
+    width: 50vw;
     height: 100%;
-    background-color: #49426c;
+    background-color: #454E7F;
+}
+@media screen and (max-width: 992px){
+    .Header__container-nav{
+        width: 40%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        transition: 0.6s all ease-out;
+        background-color: #454E7F;
+    }
+}
+@media screen and (max-width: 767px){
+    .Header__container-nav{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        transition: 0.6s all ease-out;
+        background-color: #454E7F;
+    }
 }
 
-/* List Navbar */
+/* List Nav */
 .container__nav-ul{
     display: flex;
     justify-content: space-around;
@@ -36,17 +79,51 @@
     width: 100%;
     list-style: none;
 }
+@media screen and (max-width: 992px) {
+    .container__nav-ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        height: 100%;
+    }
+}
 .nav__ul-li{
     display: flex;
     justify-content: center;
     align-items: center;
 
     padding: .5vw .5vw;
-    font-size: 1.5vw;
+    font-size: 1vw;
+    letter-spacing: 2px;
     height: 100%;
+}
+@media screen and (max-width: 992px){
+    .nav__ul-li{
+        width: 100%;
+        height: 70px;
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 450px){
+    .nav__ul-li{
+        width: 100%;
+        height: 70px;
+        font-size: 5vw;
+    }
 }
 .nav__ul-a{
     font-weight: 600;
     text-decoration: none;
     color: #fff;
 }
+.nav__ul-a:hover{
+    color: #C483F8;
+    border-bottom: .3vw solid #C483F8;
+    padding-top: 5px;
+    transition: 0.1s ease;
+}
+
+/* Hide Menu Icon */
+.menuClosed{right: 0;}
+.moveToLeft{right: -100%;}
