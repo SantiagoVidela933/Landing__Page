@@ -1,0 +1,52 @@
+/* Header Container */
+.Header__container{
+    display: flex;
+
+    width: 100vw;
+    height: 80px;
+    top: 0;
+}
+
+/* Box Icon and Box Nav */
+.Header__container-icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30vw;
+    height: 100%;
+    background-color: #fff;
+}
+.Header__container-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    width: 70vw;
+    height: 100%;
+    background-color: #49426c;
+}
+
+/* List Navbar */
+.container__nav-ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 100%;
+    list-style: none;
+}
+.nav__ul-li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: .5vw .5vw;
+    font-size: 1.5vw;
+    height: 100%;
+}
+.nav__ul-a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
