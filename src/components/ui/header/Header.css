@@ -124,7 +124,19 @@
     border-bottom: .2vw solid #C483F8;
     transition: 0.1s ease;
 }
+.nav__ul-btn{
+    width: 10vw;
+    height: 2.5vw;
+    color: #fff;
 
+    border-radius: 10em;
+    background-color: transparent;
+    background-image: linear-gradient(143deg,#4657af,#a459e1 80%);
+    border: none;
+}
+.nav__ul-btn:hover{
+    background-image: linear-gradient(143deg,#4657af,#a459e1 80%);
+}
 /* Hide Menu Icon */
 .menuClosed{right: 0;}
 .moveToLeft{right: -100%;}
