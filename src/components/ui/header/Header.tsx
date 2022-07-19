@@ -17,11 +17,11 @@ export const Header = () => {
   return (
     <div className='Header__container'>
         <div className="Header__container-icon">
-            <img 
+            {/* <img 
                 // src={logo}
                 alt="LogoSMT" 
                 className='container__icon-img'
-            />
+            /> */}
         </div>
         <div className="container__box-iconMobile" onClick={onHandleChangeIcon}>
             {changeIcon ? (

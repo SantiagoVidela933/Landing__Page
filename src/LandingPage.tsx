@@ -1,5 +1,6 @@
-import { HomeSection } from './components/sections/mainSection/HomeSection'
 import { Header } from './components/ui/header/Header'
+import { HomeSection } from './components/sections/mainSection/HomeSection'
+import { ContentSection } from './components/sections/contentSection/ContentSection'
 import './styles/LandingPage.css'
 
 export const LandingPage = () => {
@@ -7,6 +8,7 @@ export const LandingPage = () => {
     <>
       <Header/>
       <HomeSection/>
+      <ContentSection/>
     </>
   )
 }

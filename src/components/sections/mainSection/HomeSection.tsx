@@ -12,7 +12,7 @@ export const HomeSection = () => {
                 <button className='box__info-btn'>Learn more about our platform</button>
             </div>
             <div className="container__box-sample">
-                <div className='box__sample-div'>ANIMACION 3D</div>
+                <div className='box__sample-div'></div> 
             </div>
         </div>
     </div>

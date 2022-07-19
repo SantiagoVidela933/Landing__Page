@@ -1,8 +1,7 @@
 /* Container */
 .HomeSection__container{
     width: 100vw;
-    height: 200vh;
-    
+    height: 100vh;
 }
 .HomeSection__container-box{
     display: flex;
@@ -43,7 +42,7 @@
 }
 
 
-/* Box Img */
+/* Box donde ira animacion 3D ilustrativa */
 .container__box-sample{
     display: flex;
     flex-direction: column;
