@@ -39,7 +39,7 @@ export const Header = () => {
         >
             <ul className='container__nav-ul'>
                 <li className='nav__ul-li'><a href="#" className='nav__ul-a'>HOME</a></li>
-                <li className='nav__ul-li'><a href="#" className='nav__ul-a'>CUSTOMERS</a></li>
+                <li className='nav__ul-li'><a href="#" className='nav__ul-a'>CONTENT</a></li>
                 <li className='nav__ul-li'><a href="#" className='nav__ul-a'>ABOUT</a></li>
                 <li className='nav__ul-li'><a href="#" className='nav__ul-a'>RESOURCES</a></li>
                 <button className='nav__ul-btn'>REQUEST A DEMO</button>

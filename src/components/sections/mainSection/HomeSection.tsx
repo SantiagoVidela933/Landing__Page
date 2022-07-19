@@ -4,7 +4,7 @@ import './HomeSection.css';
 export const HomeSection = () => {
   return (
     <div className="HomeSection__container">
-        <Header/>
+        {/* <Header/> */}
         <div className="HomeSection__container-box">
             <div className="container__box-info">
                 <h2 className='box__info-h2'>Inspire healthcare professionals at scale.</h2>
@@ -12,7 +12,7 @@ export const HomeSection = () => {
                 <button className='box__info-btn'>Learn more about our platform</button>
             </div>
             <div className="container__box-sample">
-                <div className='box__sample-div'></div>
+                <div className='box__sample-div'>ANIMACION 3D</div>
             </div>
         </div>
     </div>
