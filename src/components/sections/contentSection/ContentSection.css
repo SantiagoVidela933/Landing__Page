@@ -6,10 +6,11 @@
     align-items: center;
 
     width: 100vw;
-    height: 60vw;
+    height: 200vw;
     background-image: linear-gradient(180deg,#f7f4f1,#fff);
 }
 
+/* Info */
 .ContentSection__container-info{
 
     display: flex;
@@ -17,29 +18,43 @@
     justify-content: flex-start;
     align-items: center;
     padding: 15vw 15vw 0vw;
-
     text-align: center;
 }
-.container__info-h2{
-    font-size: 5vw;
-    line-height: 5vw;
-    margin-bottom: 3vw;
+@media screen and (max-width: 479px){
+    .ContentSection__container-info{
+        text-align: start;
+    }
 }
+
+.container__info-h2{
+    font-size: 3.8em;
+    line-height: 1.1em;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width: 992px){
+    .container__info-h2{
+        font-size: 3.4em;
+    }
+}
+@media screen and (max-width: 767px){
+    .container__info-h2{
+        font-size: 3.2em;      
+    }
+}
+
 .container__info-p{
-    font-size: 1.5vw;
-    margin-bottom: 3vw;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
 }
 .container__info-btn{
-    width: 25vw;
-    height: 4.5vw;
-    color: #fff;
-    border-radius: 10em;
     background-color: transparent;
     background-image: linear-gradient(143deg,#4657af,#a459e1 80%);
+    border-radius: 10em;
     border: none;
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    padding: 1.5vw 3vw;
 }
 
-/* Container del carrousel */
-.ContentSection__container-carrousel{
-
-}

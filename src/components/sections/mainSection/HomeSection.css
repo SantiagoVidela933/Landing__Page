@@ -71,7 +71,6 @@
     color: #fff;
     font-size: 1em;
     text-align: center;
-    text-decoration: none;
     padding: 1.5vw 3vw;
 }
 
@@ -84,8 +83,8 @@
     width: 50%;
 }
 .box__sample-div{
-    width: 40vw;
-    height: 40vw;
+    width: 35vw;
+    height: 35vw;
     border: none;
     border-radius: 1vw;
     background-image: url('https://i.pinimg.com/564x/6a/ce/6e/6ace6eeb177a1f953182ad3f3f59675a.jpg');
