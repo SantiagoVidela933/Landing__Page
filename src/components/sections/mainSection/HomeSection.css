@@ -13,8 +13,8 @@
     .HomeSection__container-box{
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         width: 100%;
-        height: 100%;
     }
 }
 .container__box-info{
@@ -31,7 +31,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0;
+        padding-right: 0;
+        padding-top: 2vw;
     }
 } 
 
