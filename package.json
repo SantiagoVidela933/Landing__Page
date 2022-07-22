@@ -9,10 +9,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.2.0",
     "mdb-react-ui-kit": "git+https://oauth2:uhrpTU_vNFgsdSHFM8Tn@git.mdbootstrap.com/mdb/react/mdb5/prd/mdb5-react-ui-kit-pro-essential",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "sass": "^1.53.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.15",

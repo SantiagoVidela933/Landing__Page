@@ -1,14 +1,13 @@
 /* Containers */
 .ContentSection__container{
-    height: 100vw;
-    background-image: linear-gradient(180deg,#f7f4f1,#fff);
+    height: 100%;
+    background-image: linear-gradient(180deg,#f8eee4,#fff);
 }
 .ContentSection__container-box{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    padding: 5vw 5vw 0vw;
+    padding: 3vw 4vw;
     width: 100%;
     height: 100%;
 }
@@ -26,84 +25,73 @@
 }
 
 .info-h2{
-    font-size: 5vw;
+    font-size: 3.5em;
     margin-bottom: 2vw;
 }
 @media screen and (max-width: 767px){
     .info-h2{
-        font-size: 5vw;
+        font-size: 3em;
         margin-bottom: 3vw;
     }
 }
 @media screen and (max-width: 500px){
     .info-h2{
-        font-size: 5vw;
+        font-size: 2em;
         margin-bottom: 4vw;
     }
 }
 
 .info-p{
-    font-size: 1.8vw;
+    font-size: 1.5em;
     margin-bottom: 2vw;
 }
 @media screen and (max-width: 767px){
     .info-p{
-        font-size: 2.5vw;
+        font-size: 1.2em;
         margin-bottom: 3vw;
     }
 }
 @media screen and (max-width: 500px){
     .info-p{
-        font-size: 3.2vw;
+        font-size: 1em;
         margin-bottom: 4vw;
     }
 }
 .info-btn{
     background-image: linear-gradient(143deg,#4657af,#a459e1 80%);
-    border-radius: 10em;
+    font-size: 1rem;
+    padding: 1rem 2rem;
     border: none;
+    border-radius: 2rem;
     color: #fff;
-    font-size: 1em;
-    text-align: center;
-    padding: 1.5vw 3vw;
 }
 
 /* Box donde ira animacion 3D ilustrativa */
 .container__box-div{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
-}
-@media screen and (max-width: 767px){
-    .container__box-div{
-        padding: 0;
-        padding-bottom: 5vw;
-    }
-}
-@media screen and (max-width: 500px){
-    .container__box-div{
-        padding: 0;
-        padding-bottom: 7vw;
-    }
+    width: 100%;
+    padding: 3vw 0;
 }
 .box-div{
-    width: 30vw;
-    height: 30vw;
+    width: 300px;
+    height: 300px;
     border: none;
-    border-radius: 1vw;
+    border-radius: 1rem;
     background-image: url('https://i.pinimg.com/564x/3d/70/b4/3d70b44b01e5daf06e82f045fb50c9e9.jpg');
     background-size: cover;
 }
 @media screen and (max-width: 767px){
     .box-div{
-        width: 40vw;
-        height: 40vw;
+        width: 250px;
+        height: 250px;
     }
 }
 @media screen and (max-width: 500px){
     .box-div{
-        width: 60vw;
-        height: 60vw;
+        width: 130px;
+        height: 130px;
     }
 }

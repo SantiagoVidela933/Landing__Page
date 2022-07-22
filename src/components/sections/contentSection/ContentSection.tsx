@@ -10,6 +10,7 @@ export const ContentSection = () => {
             <button className='info-btn'>Learn more about assessment and analytics</button>
         </div>
         <div className='container__box-div'>
+            <div className='box-div example-box'></div>
             <div className='box-div'></div>
         </div>
       </div>
