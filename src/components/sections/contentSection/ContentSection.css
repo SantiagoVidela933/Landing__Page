@@ -13,7 +13,7 @@
 }
 
 /* Box Info */
-.ContentSection__box-info{
+.ContentSection__container-box-info{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,40 +24,40 @@
     height: 100%;
 }
 
-.info-h2{
+.ContentSection__container-box-info-h2{
     font-size: 3.5em;
     margin-bottom: 2vw;
 }
 @media screen and (max-width: 767px){
-    .info-h2{
+    .ContentSection__container-box-info-h2{
         font-size: 3em;
         margin-bottom: 3vw;
     }
 }
 @media screen and (max-width: 500px){
-    .info-h2{
+    .ContentSection__container-box-info-h2{
         font-size: 2em;
         margin-bottom: 4vw;
     }
 }
 
-.info-p{
+.ContentSection__container-box-info-p{
     font-size: 1.5em;
     margin-bottom: 2vw;
 }
 @media screen and (max-width: 767px){
-    .info-p{
+    .ContentSection__container-box-info-p{
         font-size: 1.2em;
         margin-bottom: 3vw;
     }
 }
 @media screen and (max-width: 500px){
-    .info-p{
+    .ContentSection__container-box-info-p{
         font-size: 1em;
         margin-bottom: 4vw;
     }
 }
-.info-btn{
+.ContentSection__container-box-info-btn{
     background-image: linear-gradient(143deg,#4657af,#a459e1 80%);
     font-size: 1rem;
     padding: 1rem 2rem;
@@ -67,7 +67,7 @@
 }
 
 /* Box donde ira animacion 3D ilustrativa */
-.container__box-div{
+.ContentSection__container-box-animation{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -75,7 +75,7 @@
     width: 100%;
     padding: 3vw 0;
 }
-.box-div{
+.ContentSection__container-box-animation-video{
     width: 300px;
     height: 300px;
     border: none;
@@ -84,13 +84,13 @@
     background-size: cover;
 }
 @media screen and (max-width: 767px){
-    .box-div{
+    .ContentSection__container-box-animation-video{
         width: 250px;
         height: 250px;
     }
 }
 @media screen and (max-width: 500px){
-    .box-div{
+    .ContentSection__container-box-animation-video{
         width: 130px;
         height: 130px;
     }
