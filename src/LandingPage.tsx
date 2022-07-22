@@ -1,6 +1,6 @@
 import { Header } from './components/ui/header/Header'
-import { HomeSection } from './components/sections/mainSection/HomeSection'
-import { ContentSection } from './components/sections/contentSection/ContentSection'
+import { HomeSection } from './components/sections/HomeSection/HomeSection'
+import { ContentSection } from './components/sections/ContentSection/ContentSection'
 import './styles/LandingPage.css'
 
 
