@@ -1,14 +1,13 @@
-/* Container */
 .HomeSection__container{
-    width: 100vw;
+    display: flex;
+    align-items: center;
     height: 100vh;
 }
 .HomeSection__container-box{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100%;
+    padding: 3vw 4vw;
 }
 @media screen and (max-width: 767px){
     .HomeSection__container-box{
@@ -18,29 +17,26 @@
         height: 100%;
     }
 }
-
-/* Box Info*/
 .container__box-info{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 5vw;
-    padding-top: 5vw;
+    padding-right: 7vw;
+    width: 50%;
     height: 100%;
 }
 @media screen and (max-width: 767px){
     .container__box-info{
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
         padding: 0;
     }
-}
+} 
 
 .box__info-h2{
-    font-size: 5vw;
+    font-size: 3.5em;
     margin-bottom: 2vw;
 }
 @media screen and (max-width: 767px){
@@ -87,20 +83,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 10vw;
-    padding-top: 5vw;
     height: 100%;
+    width: 50%;
 }
 @media screen and (max-width: 767px){
     .container__box-sample{
-        padding: 0;
-        padding-bottom: 5vw;
+        padding: 5vw 0vw;
     }
 }
 @media screen and (max-width: 500px){
     .container__box-sample{
-        padding: 0;
-        padding-bottom: 7vw;
+        padding: 5vw 0vw;
     }
 }
 .box__sample-div{

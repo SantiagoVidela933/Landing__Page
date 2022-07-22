@@ -34,11 +34,10 @@
         justify-content: flex-end;
         align-items: center;
 
-        width: auto;
         color: #C483F8;
         font-size: 2rem;
         z-index: 1000;
-        margin: 1vw;
+        transform: translateX(-1rem);
     }
 }
 
