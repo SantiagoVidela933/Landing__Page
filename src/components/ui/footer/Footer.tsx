@@ -1,11 +1,12 @@
 import './Footer.css';
-import {MDBFooter, MDBContainer, MDBCol, MDBRow, MDBIcon} from 'mdb-react-ui-kit';
+import {MDBFooter, MDBContainer, MDBIcon} from 'mdb-react-ui-kit';
 
 export const Footer = () => {
   return (
     // <div className='Footer__container'>
         <MDBFooter className='bg-dark text-center text-white'>
           <MDBContainer className='p-4 pb-0'>
+
             <section className='mb-4'>
               <a className='btn btn-outline-light btn-floating m-1' href='#!' role='button'>
                 <MDBIcon fab icon='facebook-f' />
@@ -22,13 +23,6 @@ export const Footer = () => {
                 <MDBIcon fab icon='instagram' />
               </a>
 
-              <a className='btn btn-outline-light btn-floating m-1' href='#!' role='button'>
-                <MDBIcon fab icon='linkedin-in' />
-              </a>
-
-              <a className='btn btn-outline-light btn-floating m-1' href='#!' role='button'>
-                <MDBIcon fab icon='github' />
-              </a>
             </section>
           </MDBContainer>
 
