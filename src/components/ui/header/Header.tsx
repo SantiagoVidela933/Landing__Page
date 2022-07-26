@@ -2,7 +2,8 @@ import './Header.css';
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from 'react';
 
-// import logo from "../../../assets/icons/logo_smt_negro.png";
+import { Link } from "react-scroll";
+import logo from "../../../assets/icons/logo_smt_negro.png";
 
 export const Header = () => {
 
@@ -17,11 +18,11 @@ export const Header = () => {
   return (
     <div className='Header__container'>
         <div className="Header__container-logo">
-            {/* <img 
-                // src={logo}
+             <img 
+                src={logo}
                 alt="LogoSMT" 
                 className='Header__container-logo-img'
-            /> */}
+            />
         </div>
         <div className="Header__container-menuMobile" onClick={onHandleChangeIcon}>
             {changeIcon ? (
@@ -38,10 +39,10 @@ export const Header = () => {
             }
         >
             <ul className='Header__container-nav-ul'>
-                <li className='Header__container-nav-ul-li'><a href="#" className='Header__container-nav-ul-li-a'>HOME</a></li>
-                <li className='Header__container-nav-ul-li'><a href="#" className='Header__container-nav-ul-li-a'>CONTENT</a></li>
-                <li className='Header__container-nav-ul-li'><a href="#" className='Header__container-nav-ul-li-a'>ABOUT</a></li>
-                <li className='Header__container-nav-ul-li'><a href="#" className='Header__container-nav-ul-li-a'>RESOURCES</a></li>
+                <li className='Header__container-nav-ul-li'><Link to="hero" spy={true} smooth={true} offset={50} duration={500} className='Header__container-nav-ul-li-a'>HOME</Link></li>
+                <li className='Header__container-nav-ul-li'><Link to="phones" spy={true} smooth={true} offset={50} duration={500} className='Header__container-nav-ul-li-a'>PHONES</Link></li>
+                <li className='Header__container-nav-ul-li'><Link to="oculus" spy={true} smooth={true} offset={50} duration={500} className='Header__container-nav-ul-li-a'>OCULUS VR</Link></li>
+                <li className='Header__container-nav-ul-li'><Link to="computers" spy={true} smooth={true} offset={50} duration={500} className='Header__container-nav-ul-li-a'>COMPUTERS</Link></li>
                 <button className='Header__container-nav-ul-btn'>REQUEST A DEMO</button>
             </ul>
         </div>
