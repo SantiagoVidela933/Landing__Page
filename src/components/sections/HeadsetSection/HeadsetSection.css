@@ -1,7 +1,7 @@
 /* Containers */
 .HeadsetSection__container{
     height: 100%;
-    background: linear-gradient(180deg,#b583df, #6772aa 80%);
+    background: linear-gradient(180deg,#6772aa,#b583df  80%);
 }
 .HeadsetSection__container-box{
     display: flex;
@@ -12,7 +12,7 @@
 @media screen and (max-width: 767px){
     .HeadsetSection__container-box{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: space-between;
         width: 100%;
     }
@@ -88,13 +88,14 @@
 }
 @media screen and (max-width: 767px){
     .HeadsetSection__container-box-animation{
+        width: 100%;
         padding: 4vw 0vw;
-        transform: translateX(-20vw);
+        justify-content: flex-start;
     }
 }
 @media screen and (max-width: 500px){
     .HeadsetSection__container-box-animation{
-        transform: translateX(0vw);
+        justify-content: center;
     }
 }
 .HeadsetSection__container-box-animation-video{
