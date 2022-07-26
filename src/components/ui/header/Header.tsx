@@ -3,7 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from 'react';
 
 import { Link } from "react-scroll";
-import logo from "../../../assets/icons/logo_smt_negro.png";
+// import logo from "../../../assets/icons/logo_smt_negro.png";
 
 export const Header = () => {
 
@@ -18,11 +18,11 @@ export const Header = () => {
   return (
     <div className='Header__container'>
         <div className="Header__container-logo">
-             <img 
+             {/* <img 
                 src={logo}
                 alt="LogoSMT" 
                 className='Header__container-logo-img'
-            />
+            /> */}
         </div>
         <div className="Header__container-menuMobile" onClick={onHandleChangeIcon}>
             {changeIcon ? (

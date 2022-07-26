@@ -11,7 +11,7 @@ export const HomeSection = () => {
                 <MDBBtn className='HomeSection__container-box-info-btn'>Learn more about our platform</MDBBtn>
             </div>
             <div className="HomeSection__container-box-animation">
-                <div className='HomeSection__container-box-animation-video'></div> 
+                <div className='HomeSection__container-box-animation-video'></div>   
             </div>
         </div>
     </div>
