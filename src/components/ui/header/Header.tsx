@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from 'react';
 
 import { Link } from "react-scroll";
+import { MDBBtn } from 'mdb-react-ui-kit';
 // import logo from "../../../assets/icons/logo_smt_negro.png";
 
 export const Header = () => {
@@ -43,7 +44,7 @@ export const Header = () => {
                 <li className='Header__container-nav-ul-li'><Link to="phones" spy={true} smooth={true} offset={50} duration={500} className='Header__container-nav-ul-li-a'>PHONES</Link></li>
                 <li className='Header__container-nav-ul-li'><Link to="oculus" spy={true} smooth={true} offset={50} duration={500} className='Header__container-nav-ul-li-a'>OCULUS VR</Link></li>
                 <li className='Header__container-nav-ul-li'><Link to="computers" spy={true} smooth={true} offset={50} duration={500} className='Header__container-nav-ul-li-a'>COMPUTERS</Link></li>
-                <button className='Header__container-nav-ul-btn'>REQUEST A DEMO</button>
+                <MDBBtn className='Header__container-nav-ul-btn'>REQUEST A DEMO</MDBBtn>
             </ul>
         </div>
     </div>

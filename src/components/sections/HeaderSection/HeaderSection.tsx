@@ -1,3 +1,4 @@
+import { MDBBtn } from 'mdb-react-ui-kit';
 import './HeaderSection.css';
 
 export const HeaderSection = () => {
@@ -6,7 +7,7 @@ export const HeaderSection = () => {
         <div className="HeaderSection__container-box">
             <h1 className="HeaderSection__container-box-h1">Operate at a higher level.</h1>
             <p className="HeaderSection__container-box-p    ">The leading virtual reality surgical training and assessment platform.</p>
-            <button className='HeaderSection__container-box-btn'>REQUEST A DEMO</button>
+            <MDBBtn className='HomeSection__container-box-info-btn'>REQUEST A DEMO</MDBBtn>
         </div>
     </div>
   )

@@ -1,7 +1,8 @@
 /* Containers */
 .PhoneSection__container{
     height: 100%;
-    background-image: linear-gradient(180deg,#f8eee4,#fff);
+    background: linear-gradient(180deg,#cea8dd,#FFF 90%);
+
 }
 .PhoneSection__container-box{
     display: flex;
@@ -59,11 +60,9 @@
 }
 .PhoneSection__container-box-info-btn{
     background-image: linear-gradient(143deg,#4657af,#a459e1 80%);
-    font-size: 1rem;
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 2rem;
-    color: #fff;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 2px !important;
 }
 
 /* Box Animation 3D */
