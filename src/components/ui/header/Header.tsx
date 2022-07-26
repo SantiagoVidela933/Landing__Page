@@ -16,18 +16,18 @@ export const Header = () => {
 
   return (
     <div className='Header__container'>
-        <div className="Header__container-icon">
+        <div className="Header__container-logo">
             {/* <img 
                 // src={logo}
                 alt="LogoSMT" 
-                className='container__icon-img'
+                className='Header__container-logo-img'
             /> */}
         </div>
-        <div className="container__box-iconMobile" onClick={onHandleChangeIcon}>
+        <div className="Header__container-menuMobile" onClick={onHandleChangeIcon}>
             {changeIcon ? (
-                <FaBars className='box-iconMobile '/>
+                <FaBars className='header__container-menuMobile-icon'/>
             ) : (
-                <FaTimes className='box-iconMobile '/>
+                <FaTimes className='header__container-menuMobile-icon'/>
             )}
         </div>
         <div onClick={onHandleChangeIcon}
@@ -37,12 +37,12 @@ export const Header = () => {
                   : "Header__container-nav menuClosed"
             }
         >
-            <ul className='container__nav-ul'>
-                <li className='nav__ul-li'><a href="#" className='nav__ul-a'>HOME</a></li>
-                <li className='nav__ul-li'><a href="#" className='nav__ul-a'>CONTENT</a></li>
-                <li className='nav__ul-li'><a href="#" className='nav__ul-a'>ABOUT</a></li>
-                <li className='nav__ul-li'><a href="#" className='nav__ul-a'>RESOURCES</a></li>
-                <button className='nav__ul-btn'>REQUEST A DEMO</button>
+            <ul className='Header__container-nav-ul'>
+                <li className='Header__container-nav-ul-li'><a href="#" className='Header__container-nav-ul-li-a'>HOME</a></li>
+                <li className='Header__container-nav-ul-li'><a href="#" className='Header__container-nav-ul-li-a'>CONTENT</a></li>
+                <li className='Header__container-nav-ul-li'><a href="#" className='Header__container-nav-ul-li-a'>ABOUT</a></li>
+                <li className='Header__container-nav-ul-li'><a href="#" className='Header__container-nav-ul-li-a'>RESOURCES</a></li>
+                <button className='Header__container-nav-ul-btn'>REQUEST A DEMO</button>
             </ul>
         </div>
     </div>
