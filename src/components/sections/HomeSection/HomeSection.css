@@ -101,6 +101,7 @@
     border-radius: 1vw;
     background-image: url('https://i.pinimg.com/564x/6a/ce/6e/6ace6eeb177a1f953182ad3f3f59675a.jpg');
     background-size: cover;
+    border: #4657af solid;
 }
 @media screen and (max-width: 767px){
     .HomeSection__container-box-animation-video{

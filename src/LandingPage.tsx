@@ -2,6 +2,7 @@ import { Header } from './components/ui/header/Header';
 import { HomeSection } from './components/sections/HomeSection/HomeSection';
 import { PhoneSection } from './components/sections/PhoneSection/PhoneSection';
 import { HeadsetSection } from './components/sections/HeadsetSection/HeadsetSection';
+import { ComputerSection } from './components/sections/ComputerSection/ComputerSection';
 
 import './styles/LandingPage.css'
 
@@ -12,6 +13,7 @@ export const LandingPage = () => {
       <HomeSection/>
       <PhoneSection/>
       <HeadsetSection/>
+      <ComputerSection/>
     </div>
   )
 }

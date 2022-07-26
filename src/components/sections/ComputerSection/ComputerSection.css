@@ -1,9 +1,9 @@
 /* Containers */
-.PhoneSection__container{
+.ComputerSection__container{
     height: 100%;
     background-image: linear-gradient(180deg,#f8eee4,#fff);
 }
-.PhoneSection__container-box{
+.ComputerSection__container-box{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +12,7 @@
 }
 
 /* Box Info */
-.PhoneSection__container-box-info{
+.ComputerSection__container-box-info{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,40 +24,40 @@
 }
 
 /* Text information */
-.PhoneSection__container-box-info-h2{
+.ComputerSection__container-box-info-h2{
     font-size: 3.5em;
     margin-bottom: 2vw;
 }
 @media screen and (max-width: 767px){
-    .PhoneSection__container-box-info-h2{
+    .ComputerSection__container-box-info-h2{
         font-size: 3em;
         margin-bottom: 3vw;
     }
 }
 @media screen and (max-width: 500px){
-    .PhoneSection__container-box-info-h2{
+    .ComputerSection__container-box-info-h2{
         font-size: 2em;
         margin-bottom: 4vw;
     }
 }
 
-.PhoneSection__container-box-info-p{
+.ComputerSection__container-box-info-p{
     font-size: 1.5em;
     margin-bottom: 2vw;
 }
 @media screen and (max-width: 767px){
-    .PhoneSection__container-box-info-p{
+    .ComputerSection__container-box-info-p{
         font-size: 1.2em;
         margin-bottom: 3vw;
     }
 }
 @media screen and (max-width: 500px){
-    .PhoneSection__container-box-info-p{
+    .ComputerSection__container-box-info-p{
         font-size: 1em;
         margin-bottom: 4vw;
     }
 }
-.PhoneSection__container-box-info-btn{
+.ComputerSection__container-box-info-btn{
     background-image: linear-gradient(143deg,#4657af,#a459e1 80%);
     font-size: 1rem;
     padding: 1rem 2rem;
@@ -67,7 +67,7 @@
 }
 
 /* Box Animation 3D */
-.PhoneSection__container-box-animation{
+.ComputerSection__container-box-animation{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -75,22 +75,22 @@
     width: 100%;
     padding: 3vw 0;
 }
-.PhoneSection__container-box-animation-video{
+.ComputerSection__container-box-animation-video{
     width: 300px;
     height: 300px;
     border-radius: 1vw;
-    background-image: url('https://i.pinimg.com/564x/dc/9e/e9/dc9ee90fa24b1720903863b3a3df0477.jpg');
+    background-image: url('https://i.pinimg.com/564x/bf/b9/88/bfb988cd10e21717226bc1f04bdee64e.jpg');
     background-size: cover;
-    border: #4657af solid;
+    border: #293c99  solid;
 }
 @media screen and (max-width: 767px){
-    .PhoneSection__container-box-animation-video{
+    .ComputerSection__container-box-animation-video{
         width: 250px;
         height: 250px;
     }
 }
 @media screen and (max-width: 500px){
-    .PhoneSection__container-box-animation-video{
+    .ComputerSection__container-box-animation-video{
         width: 200px;
         height: 200px;
     }
