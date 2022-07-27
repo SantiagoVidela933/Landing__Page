@@ -55,12 +55,28 @@
         margin-bottom: 4vw;
     }
 }
+
 .ComputerSection__container-box-info-btn{
     background-image: linear-gradient(143deg,#4657af,#a459e1 80%);
-    font-size: 1rem !important;
+    font-size: 1.2vw !important;
     font-weight: 600 !important;
     letter-spacing: 2px !important;
 }
+@media screen and (max-width: 767px){
+    .ComputerSection__container-box-info-btn{
+        width: 40vw;
+        height: 10vh;
+        font-size: 1.5vw !important;
+    }
+}
+@media screen and (max-width: 500px){
+    .ComputerSection__container-box-info-btn{
+        width: 60vw;
+        height: 10vh;
+        font-size: 2vw !important;
+    }
+}
+
 /* Box Animation 3D */
 .ComputerSection__container-box-animation{
     display: flex;
